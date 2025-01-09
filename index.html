@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="start-screen" class="screen">
+            <h1>Welcome to the Quiz!</h1>
+            <div class="quiz-intro">
+                <p class="welcome-text">Test your knowledge with our interactive quiz!</p>
+                <div class="quiz-rules">
+                    <h3>Quiz Rules:</h3>
+                    <ul>
+                        <li>Select the correct answer from the given options</li>
+                        <li>Each question has only one correct answer</li>
+                        <li>You cannot change your answer once selected</li>
+                        <li>Your score will be displayed at the end</li>
+                    </ul>
+                </div>
+                <div class="quiz-info">
+                    <p>Total Questions: <span id="total-questions">0</span></p>
+                    <p class="good-luck">Good Luck!</p>
+                </div>
+            </div>
+            <button id="start-btn">Start Quiz</button>
+        </div>
+
+        <div id="quiz-screen" class="screen hidden">
+            <div class="quiz-header">
+                <h2 id="question-text"></h2>
+                <p id="progress">Question <span id="current-question">1</span> of <span id="total-questions">10</span></p>
+                <p id="score-display">Score: <span id="score">0</span></p>
+            </div>
+            <div id="options-container"></div>
+            <button id="next-btn" class="hidden">Next Question</button>
+        </div>
+
+        <div id="result-screen" class="screen hidden">
+            <h2>Quiz Completed!</h2>
+            <p id="final-score"></p>
+            <button id="restart-btn">Restart Quiz</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
