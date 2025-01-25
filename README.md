@@ -18,7 +18,7 @@
 
 ![Image](https://github.com/user-attachments/assets/cc5acac0-1045-4d96-9a84-57f957d9f0b0)
 
-**After completing the quiz**
+**Completion of quiz**
 
 ![Image](https://github.com/user-attachments/assets/352aa3cb-ba67-42f3-ae35-a9fad2db402c)
 
